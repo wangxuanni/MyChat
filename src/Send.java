@@ -60,7 +60,7 @@ public class Send implements Runnable {
 	//释放资源
 	private void release() {
 		this.isRunning = false;
-		SxtUtils.close(dos,client);
+		CloseUtils.close(dos,client);
 	}
 
 }

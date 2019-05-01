@@ -99,7 +99,7 @@ public class Chat {
 			//释放资源
 			private void release() {
 				this.isRunning = false;
-				SxtUtils.close(dis,dos,client);
+				CloseUtils.close(dis,dos,client);
 				//退出
 				all.remove(this);
 				sendOthers(this.name+"离开大家庭...",true);

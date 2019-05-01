@@ -1,7 +1,7 @@
 import java.io.Closeable;
 
 
-public class SxtUtils {
+public class CloseUtils {
 
 	public static void close(Closeable... targets ) {
 		for(Closeable target:targets) {

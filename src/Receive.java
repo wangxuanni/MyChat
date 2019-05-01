@@ -40,7 +40,7 @@ public class Receive implements Runnable {
 	//释放资源
 	private void release() {
 		this.isRunning = false;
-		SxtUtils.close(dis,client);
+		CloseUtils.close(dis,client);
 	}
 
 }
