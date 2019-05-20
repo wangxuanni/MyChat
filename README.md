@@ -1,4 +1,6 @@
 # MyChat
+![进度](http://progressed.io/bar/15?title=done)
+
 
 * [x] 私聊和群聊
 * [ ] 登录注销
