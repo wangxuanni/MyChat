@@ -1,5 +1,5 @@
 # MyChat
-![进度](http://progressed.io/bar/15?title=done)
+![进度](http://progressed.io/bar/50?title=done)
 
 
 * [x] 私聊和群聊
